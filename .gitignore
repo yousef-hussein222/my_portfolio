@@ -1,0 +1,30 @@
+# ===== COMMON =====
+.vscode/
+.DS_Store
+
+# ===== PYTHON =====
+__pycache__/
+*.pyc
+
+# ===== JAVA =====
+*.class
+.idea/
+*.iml
+out/
+target/
+
+# ===== C++ =====
+*.exe
+*.out
+*.o
+
+# ===== FLUTTER =====
+build/
+.dart_tool/
+.packages
+.pub-cache/
+pubspec.lock
+
+# ===== OTHER =====
+bin/
+obj/
