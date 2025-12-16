@@ -32,17 +32,21 @@ An Address Book application implemented in C++ using an AVL Tree.
 
 
 
-1\. Ensure the following files exist in the same folder:
+1\. Ensure the following files exist:
 
-   - address\_book\_application.cpp
+&nbsp;  - src/address\_book\_application.cpp
 
-   - testcases.txt (contains initial contacts)
+&nbsp;  - testcases/testcases.txt
 
 
 
 2\. Compile using a C++ compiler (GCC):
 
-   ```bash
+&nbsp;  ```bash
 
-   g++ address\_book\_application.cpp -o address\_book
+&nbsp;  g++ src/address\_book\_application.cpp -o address\_book
+
+3\. Run the executable:
+
+&nbsp;  address\_book
 
